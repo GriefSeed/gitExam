@@ -1,5 +1,5 @@
 #coding:utf-8
-def say():
-    print('hello~{0}'.format('github'))
+def say(who):
+    print('hello~{0}'.format(who))
 
-say()
+say('who')
